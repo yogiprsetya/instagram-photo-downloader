@@ -1,0 +1,244 @@
+body {
+    font-size: 16px;
+    background: #F5F5F5
+}
+
+.navbar {
+    margin-bottom: 0
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    line-height: 10px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, .06), 0 1px 0 0 rgba(0, 0, 0, .02);
+    -moz-box-shadow: 0 0 24px 0 rgba(0, 0, 0, .06), 0 1px 0 0 rgba(0, 0, 0, .02);
+    -webkit-box-shadow: 0 0 24px 0 rgba(0, 0, 0, .06), 0 1px 0 0 rgba(0, 0, 0, .02)
+}
+
+.logo {
+    line-height: 48px;
+    float: left
+}
+
+.navbar-header {
+    float: right
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #666;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: color ease-in-out 300ms;
+    -webkit-transition: color ease-in-out 300ms
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #222
+}
+
+.navbar-default .navbar-nav>li>a.current {
+    color: #222
+}
+
+.dropdown-menu {
+    background-color: #222;
+    padding: 25px 15px;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.dropdown-menu>li>a {
+    color: #c5c5c5;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 4px;
+    padding-bottom: 5px
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: transparent;
+    color: #fff
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: #fff;
+    color: #222
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent
+}
+
+@media (max-width:768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none!important
+    }
+    .navbar .navbar-collapse {
+        text-align: center
+    }
+}
+
+.hero-sec {
+    overflow: hidden;
+    padding: 7% 0 14%
+}
+
+.hero-content {
+    text-align: center;
+    width: 100%;
+    font-size: 36px
+}
+
+.hero-content h1 {
+    color: #555;
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 25px
+}
+
+.hero-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    line-height: 26px;
+    margin-top: 15px
+}
+
+.result-img {
+    height: 338px
+}
+
+form-control {
+    line-height: 24px;
+    padding: 5px 14px;
+    height: 50px;
+    font-size: 16px;
+    border-color: #ccd1d9;
+    color: #666;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px
+}
+
+.form-control:focus {
+    border-color: #00aeff!important;
+    -webkit-box-shadow: 0 0 12px 0 rgba(0, 0, 0, .12)!important;
+    -moz-box-shadow: 0 0 12px 0 rgba(0, 0, 0, .12)!important;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, .12)!important
+}
+
+.input-group {
+    width: 80%;
+    margin: 0 auto
+}
+
+.btn {
+    outline: none!important;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 8px 25px;
+    border: none;
+    font-weight: 500;
+    box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important
+}
+
+.btn-violet {
+    background: #7045ff;
+    color: #fff
+}
+
+.input-group-btn>.btn {
+    min-width: 50px;
+    padding: 7px 10px;
+    font-size: 18px;
+    line-height: 29px;
+    border: 1px solid #ccd1d9;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    height: 50px
+}
+
+.input-group-btn>.btn.no-border {
+    border: none;
+    line-height: 31px
+}
+
+.input-group-btn>.btn span {
+    font-size: 14px
+}
+
+.footer {
+    padding: 10px 30px 5px;
+    color: rgba(0, 0, 0, .7);
+    background: #F5F5F5;
+    border-top: 1px solid rgba(0, 0, 0, .04)
+}
+
+.footer a {
+    color: rgba(0, 0, 0, .7)
+}
+
+@media only screen and (max-width:600px) {
+    .hero-content h1 {
+        font-size: 35px;
+        line-height: 1.2;
+        margin-bottom: 25px
+    }
+    .hero-content p,
+    .how-to p {
+        font-size: 15px;
+        margin: 0 0 5px
+    }
+    .how-to h2 {
+        font-size: 25px
+    }
+    .how-to h3 {
+        font-size: 22px
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .hero-content h1 {
+        font-size: 30px;
+        line-height: 1;
+        margin-bottom: 20px
+    }
+    .hero-content p,
+    .how-to p {
+        font-size: 14px;
+        margin: 0 0 3px
+    }
+    .how-to h2 {
+        font-size: 23px
+    }
+    .how-to h3 {
+        font-size: 20px
+    }
+    .hero-sec {
+        padding: 26% 0 0
+    }
+    .container {
+        padding-right: 10px;
+        padding-left: 10px
+    }
+    .input-group {
+        width: 90%
+    }
+}
